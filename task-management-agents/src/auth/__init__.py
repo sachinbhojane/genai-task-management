@@ -1,5 +1,2 @@
 """Authentication middleware and utilities."""
-
-from .iam_middleware import IAMAuthMiddleware
-
-__all__ = ["IAMAuthMiddleware"]
+# Lazy imports to avoid startup issues

@@ -1,5 +1,2 @@
 """FastAPI application and routes."""
-
-from .main import app
-
-__all__ = ["app"]
+# Import app lazily to avoid startup issues
